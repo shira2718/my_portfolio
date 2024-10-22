@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ - 白澤拓也</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./nature-background.png'); /* ここに自然の画像のURLを入れる */
+            background-size: cover; /* 背景画像をカバー */
+            background-position: center; /* 背景画像を中央に配置 */
+            color: white; /* 文字色を白に */
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* 半透明の背景 */
+            padding: 10px 0;
+            text-align: center;
+            position: relative; /* 相対位置を設定 */
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white; /* ナビゲーションリンクの文字色を白に */
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* セクションの背景を半透明に */
+            border-radius: 5px; /* セクションの角を丸く */
+            margin: 20px; /* セクション間に余白を追加 */
+        }
+
+        h2 {
+            border-bottom: 2px solid white; /* タイトルの下線を白に */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .profile-image {
+            border-radius: 50%; /* 円形にする */
+            width: 100px; /* 幅を100pxに設定 */
+            height: 100px; /* 高さを100pxに設定 */
+            object-fit: cover; /* 画像を指定したサイズに収める */
+            position: absolute; /* 絶対位置を設定 */
+            top: 10px; /* 上からの位置 */
+            right: 10px; /* 右からの位置 */
+            border: 3px solid white; /* 白の枠を追加 */
+        }
+
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            background-color: rgba(255, 255, 255, 0.8); /* プロジェクトカードの背景を白に */
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            color: black; /* プロジェクトカードの文字色を黒に */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(51, 51, 51, 0.8); /* 半透明の背景 */
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>白澤拓也のポートフォリオ</h1>
+    <img src="./oktma.png" alt="白澤拓也のプロフィール画像" class="profile-image"> <!-- プロフィール画像を右上に追加 -->
+</header>
+
+<nav>
+    <a href="#about">自己紹介</a>
+    <a href="#resume">履歴書</a>
+    <a href="#projects">プロジェクト</a>
+    <a href="#contact">連絡先</a>
+</nav>
+
+<section id="about">
+    <h2>自己紹介</h2>
+    <p>こんにちは！私はデザイナー/開発者/フリーランサーの白澤拓也です。ここでは、これまでのプロジェクトと経験を紹介しています。ユーザー中心のデザインやモダンな技術を使って、問題解決に取り組んでいます。</p>
+</section>
+
+<section id="resume">
+    <h2>履歴書</h2>
+    <h3>個人情報</h3>
+    <p><strong>氏名:</strong> 白澤 拓也<br>
+       <strong>生年月日:</strong> 昭和59年1月17日生（満40歳）<br>
+       <strong>ふりがな:</strong> おうめし　かべまち<br>
+       <strong>住所:</strong> 〒198-0036 東京都青梅市河辺町10-8-5-706<br>
+       <strong>電話:</strong> 090-5522-2718<br>
+       <strong>Email:</strong> shtky2718@gmail.com</p>
+
+    <h3>学歴</h3>
+    <ul>
+        <li>2004年3月: 国立木更津工業高等専門学校 電子制御工学科 卒業</li>
+        <li>2004年4月: 国立東京農工大学 電気電子工学科 編入学</li>
+        <li>2006年3月: 国立東京農工大学 電気電子工学科 卒業</li>
+        <li>2006年4月: 国立東京農工大学大学院 電気電子工学専攻 入学</li>
+        <li>2008年3月: 国立東京農工大学大学院 電気電子工学専攻 修士 卒業</li>
+    </ul>
+
+    <h3>職歴</h3>
+    <ul>
+        <li>2008年4月: シャープ株式会社 入社（2013年3月 一身上の都合により退社）</li>
+        <li>2013年4月: 日本ACP株式会社 入社（2013年11月 会社都合により退社）</li>
+        <li>2014年1月: 株式会社 テイクシステムズ 入社（2016年11月 一身上の都合により退社）</li>
+        <li>2017年4月: 日本ディスプレイInc 入社（現在に至る）</li>
+    </ul>
+
+    <h3>免許・資格</h3>
+    <ul>
+        <li>2007年11月: 普通自動車第一種運転免許</li>
+        <li>2011年11月: 基本情報技術者資格取得</li>
+    </ul>
+
+    <h3>スキル</h3>
+    <ul>
+        <li>電子回路, 画像処理, Python, AI, Web系全般</li>
+    </ul>
+</section>
+
